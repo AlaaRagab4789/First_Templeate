@@ -1,0 +1,724 @@
+body{
+
+padding: 0px;
+margin: 0px;
+font-family: 'Cairo', sans-serif;
+box-sizing: border-box;
+direction: rtl;
+}
+
+
+/**This Is Navbar**/
+.offcanvas-end{
+
+direction: rtl;
+}
+
+.navbar{
+
+padding-top: 0.8rem;
+padding-bottom: 0.8rem;
+direction: ltr;
+
+
+}
+
+.offcanvas-body{
+
+font-family: 'Tajawal', sans-serif;
+font-weight: 500;
+
+}
+
+
+
+.dropdown .dropdown-menu{
+
+display: none;
+}
+
+.navbar-brand{
+
+font-weight: 600;
+font-family: 'Tajawal', sans-serif;
+font-size: 25px;
+
+}
+
+.one1{
+
+    background-color: #5d6369!important;
+}
+
+.navbar-brand span{
+
+color: #0da574;
+}
+
+.navbar-light .navbar-toggler{
+
+border: none;
+outline: none;
+}
+
+.navbar-toggler{
+
+    font-size: 1.3rem;
+    
+}
+
+.navbar-toggler i{
+
+color: #555;
+}
+
+.navbar-toggler:focus{
+text-decoration: none;
+outline: 0;
+box-shadow: 0 0 0 0rem;
+}
+
+.offcanvas-end ul li a{
+
+font-size: 16px;
+}
+
+.nav-item .nav-link span{
+
+padding-right: 7px;
+}
+
+.nav-link {
+
+    padding: 0.8rem 1rem;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+
+}
+
+.offcanvas-title{
+
+font-size: 20px;
+font-family: 'Tajawal', sans-serif;
+font-weight: 600;
+}
+
+.offcanvas-title span{
+
+    color: #0da574;
+
+}
+
+
+/**End Navbar**/
+
+
+/**This Is products3-read**/
+
+
+/**Section1**/
+.products3-read .products3-section1{
+padding: 30px 0px;
+margin: 30px 0px;
+font-family: 'Tajawal', sans-serif;
+display: none;
+
+}
+
+.products3-read .photo1{
+
+background-image: url(../image/DSC00393-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 350px;
+
+}
+
+
+
+.products3-read .para1 h4{
+
+padding-bottom: 18px;
+color: #282828bd;
+
+
+}
+
+.products3-read .para1 p{
+
+line-height: 1.8em;
+color: #777;
+text-align: justify;
+
+}
+
+@media(max-width:768px){
+
+.products1-read .para1{
+
+margin-top: 15px;
+
+}
+
+}
+
+/**Section2**/
+.products3-read .products3-section2{
+padding: 30px 0px;
+margin: 30px 0px;
+font-family: 'Tajawal', sans-serif;
+
+display: none;
+}
+
+.products3-read .photo2{
+
+background-image: url(../image/DSC08038-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 350px;
+
+}
+
+
+.products3-read .para2 h4{
+
+padding-bottom: 18px;
+color: #282828bd;
+
+
+}
+
+.products3-read .para2 p{
+
+line-height: 1.8em;
+color: #777;
+text-align: justify;
+
+}
+
+@media(max-width:768px){
+
+.products1-read .para1{
+
+margin-top: 15px;
+
+}
+
+}
+
+/**Section3**/
+.products3-read .products3-section3{
+padding: 30px 0px;
+margin: 30px 0px;
+font-family: 'Tajawal', sans-serif;
+display: none;
+
+
+}
+
+.products3-read .photo3{
+
+background-image: url(../image/DSC08028-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 350px;
+
+}
+
+.products3-read .para3{
+
+ width: 55%;
+ margin-right: 15px;   
+
+}
+
+.products3-read .para3 h4{
+
+padding-bottom: 18px;
+color: #282828bd;
+
+
+}
+
+.products3-read .para3 p{
+
+line-height: 1.8em;
+color: #777;
+text-align: justify;
+
+}
+
+@media(max-width:768px){
+
+.products1-read .para1{
+
+margin-top: 15px;
+
+}
+
+}
+
+/**Section4**/
+.products3-read .products3-section4{
+padding: 30px 0px;
+margin: 30px 0px;
+font-family: 'Tajawal', sans-serif;
+display: none;
+
+
+}
+
+.products3-read .photo4{
+
+background-image: url(../image/co2-2-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 350px;
+
+}
+
+.products3-read .para4{
+
+ width: 55%;
+ margin-right: 15px;   
+
+}
+
+.products3-read .para4 h4{
+
+padding-bottom: 18px;
+color: #282828bd;
+
+
+}
+
+.products3-read .para4 p{
+
+line-height: 1.8em;
+color: #777;
+text-align: justify;
+
+}
+
+
+@media(max-width:768px){
+
+.products1-read .para1{
+
+margin-top: 15px;
+
+}
+
+}
+
+/**Section5**/
+.products3-read .products3-section5{
+padding: 30px 0px;
+margin: 30px 0px;
+font-family: 'Tajawal', sans-serif;
+display: none;
+
+
+}
+
+.products3-read .photo5{
+
+background-image: url(../image/carr-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 350px;
+
+}
+
+.products3-read .para5{
+
+ width: 55%;
+ margin-right: 15px;   
+
+}
+
+.products3-read .para5 h4{
+
+padding-bottom: 18px;
+color: #282828bd;
+
+
+}
+
+.products3-read .para5 p{
+
+line-height: 1.8em;
+color: #777;
+text-align: justify;
+
+}
+
+@media(max-width:768px){
+
+.products1-read .para1{
+
+margin-top: 15px;
+
+}
+
+}
+
+/**Section6**/
+.products3-read .products3-section6{
+padding: 30px 0px;
+margin: 30px 0px;
+font-family: 'Tajawal', sans-serif;
+display: none;
+
+
+}
+
+.products3-read .photo6{
+
+background-image: url(../image/DSC00382-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 350px;
+
+}
+
+.products3-read .para6{
+
+ width: 55%;
+ margin-right: 15px;   
+
+}
+
+.products3-read .para6 h4{
+
+padding-bottom: 18px;
+color: #282828bd;
+
+
+}
+
+.products3-read .para6 p{
+
+line-height: 1.8em;
+color: #777;
+text-align: justify;
+
+}
+
+
+@media(max-width:768px){
+
+.products1-read .para1{
+
+margin-top: 15px;
+
+}
+
+}
+/**End products3-read**/  
+
+
+
+
+
+/**This Is products3-**/
+.products3-head{
+
+padding: 30px 0px;
+margin: 30px 0px;
+
+}
+
+.products3-head .products1-photo{
+
+background-image: url(../image/DSC00393-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.products3-head .products2-photo{
+
+background-image: url(../image/DSC08038-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.products3-head .products3-photo{
+
+background-image: url(../image/DSC08028-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.products3-head .products4-photo{
+
+background-image: url(../image/co2-2-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.products3-head .products5-photo{
+
+background-image: url(../image/carr-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.products3-head .products6-photo{
+
+background-image: url(../image/DSC00382-Copy-300x300.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.products1-photo,.products2-photo,.products3-photo,.products4-photo,.products5-photo,.products6-photo{
+
+height: 300px;
+margin: 2% 0px;
+
+}
+
+.products1-photo .alpha,.products2-photo .alpha,.products3-photo .alpha,.products4-photo .alpha,.products5-photo .alpha,.products6-photo .alpha{
+
+height: 100%;
+background-color:rgba(114, 73, 48, 0.7);
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: 0.5s;
+
+}
+
+.products1-photo .alpha:hover,.products2-photo .alpha:hover,.products3-photo .alpha:hover,.products4-photo .alpha:hover,.products5-photo .alpha:hover,.products6-photo .alpha:hover{
+
+opacity: 1;
+
+}
+
+.products3-head .alpha i{
+
+color: #fe590f;
+font-size: 22px;
+font-weight: 900;
+}
+
+.products3-head .alpha span{
+
+padding: 13px 15px 11px 15px;
+background-color: #fff;
+border-radius: 50%;
+cursor: pointer;
+
+}
+
+.products3-head .btn{
+
+padding: 30px 0px;
+}
+
+.products3-head .btn button{
+
+padding: 8px 20px;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 3px;
+margin-right: 9px;
+font-size: 17px;
+border: 0.5px solid #d19b7c;
+color: #282828f3;
+transition: 0.5s;
+background: none;
+}
+
+.products3-head .btn button:hover{
+
+
+background-color: #d19b7c;
+border: none;
+color: #fff;
+}
+
+/**End products3**/
+
+
+
+
+
+
+/**This Is Section Four**/
+
+.section-four{
+
+padding: 80px 0px 60px 0px;
+font-family: 'Tajawal', sans-serif;
+background-color: #404c4e;
+}
+
+.section-four .one p{
+
+padding: 10px 0px;
+line-height: 1.8em;
+color: #ddd;
+font-size: 15px;
+font-weight: 300;
+}
+
+.section-four .one p:nth-last-of-type(2){
+
+padding: 0px;
+}
+
+.section-four .one a{
+
+text-decoration: none;
+color: #eee;
+padding: 10px 0px 30px 0px;
+display: block;
+font-size: 25px;
+font-weight: 600;
+}
+
+.section-four .one a span{
+
+color: #0da574;
+
+}
+
+
+.section-four .two h4{
+
+padding: 15px 0px 25px 0px;
+font-size: 22px;
+font-weight: 500;
+color: #eee;
+
+}
+
+.section-four .two p a{
+
+text-decoration: none;
+}
+
+.section-four .two p span{
+
+color: #ddd;
+font-size: 15px;
+padding-right: 8px;
+
+}
+
+.section-four .two p span i{
+
+font-size: 11px;
+}
+
+
+.section-four .three{
+
+    padding: 12px 0px 20px 0px;
+}
+
+
+
+/**End Section Four**/
+
+/**This Is Footer**/
+
+.footer{
+
+padding-top: 0.9rem;
+padding-bottom: 0.9rem;
+font-family: 'Tajawal', sans-serif;
+background-color: #384146!important;
+direction: ltr;
+font-weight: 300;
+
+}
+
+.footer .para p,.footer .icon p{
+
+padding: 0px;
+margin: 0px;
+}
+
+.footer .para p{
+
+color: #ddd;
+font-size: 16px;
+padding: 20px 0px 0px 0px;
+
+}
+
+.footer .icon{
+
+text-align: right;
+padding: 10px 0px 10px 0px ;
+
+}
+
+.footer .icon p i{
+
+width: 40px;
+height: 35px;
+color: #ccc;
+border: 0.5px solid #888;
+border-radius: 5px;
+font-size: 14.5px;
+margin-right: 5px;
+text-align: center;
+box-sizing: border-box;
+padding: 10px 0px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.footer .icon p i:hover{
+
+color: #fff;
+border: none;
+background-color: #d19b7c!important;
+
+}
+
+@media(max-width:768px){
+
+.footer .icon{
+
+text-align: center;
+padding: 10px 10px 10px 10px ;
+margin: 7px 0px;
+
+}
+
+}
+
+/**End Footer**/
+
+::-webkit-scrollbar{
+
+width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+
+background-color: #ccc;
+border-radius: 8px;
+}
+
+
+

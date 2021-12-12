@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nassar group</title>
+   
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="icon" href="https://nassargroup.com/wp-content/uploads/2021/05/cropped-nassarLogo-1-32x32.png" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!--This Is Navbar-->
+
+<nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0V12L7.00543 6.48334L0 0Z" fill="#FFC631"></path><path d="M0 31L7.00543 24.5151L0 19V31Z" fill="#FFC631"></path><path d="M12.8208 14.3662L30.0233 0H19.9966L0 16L12.8208 14.3662Z" fill="#0DA574"></path><path d="M0 16L19.9966 31H30.0233L12.8208 17.5239L0 16Z" fill="#0DA574"></path></svg> Axial <span>Construct</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0V12L7.00543 6.48334L0 0Z" fill="#FFC631"></path><path d="M0 31L7.00543 24.5151L0 19V31Z" fill="#FFC631"></path><path d="M12.8208 14.3662L30.0233 0H19.9966L0 16L12.8208 14.3662Z" fill="#0DA574"></path><path d="M0 16L19.9966 31H30.0233L12.8208 17.5239L0 16Z" fill="#0DA574"></path></svg> Axial <span>Construct</span></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+      
+
+          <div class="sharingan wow bounceInDown" data-wow-delay="1s" data-wow-duration="3s" data-wow-iteration="1" data-wow-offset="100">
+            <div class="pupil"></div>
+            <div class="iris"></div>
+            <div class="tomoes">
+                <div class="tomoe-area one">
+                    <div class="tomoe" style="color: #fff;"><a href="#">الصفحة الرئيسية</a></div>
+                </div>
+                <div class="tomoe-area tow">
+                    <div class="tomoe"><a href="#">المنتجات</a></div>
+                </div>
+                <div class="tomoe-area three">
+                    <div class="tomoe"><a href="#"> نبذه عننا</a></div>
+                </div>
+    
+                <div class="tomoe-area four">
+                  <div class="tomoe"><a href="#">تواصل معنا</a></div>
+              </div>
+    
+              <div class="tomoe-area five">
+                <div class="tomoe"><a href="#">دعم فني</a></div>
+            </div>
+    
+            <div class="tomoe-area six">
+              <div class="tomoe"><a href="#">وظائف</a></div>
+          </div>
+    
+          
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script>
+            function PlaySound(soundobj) {
+                var thissound = document.getElementById(soundobj);
+                thissound.play();
+            }
+    
+            function StopSound(soundobj) {
+                var thissound = document.getElementById(soundobj);
+                thissound.pause();
+                thissound.currentTime = 0;
+            }
+            $(document).on('click', '.sharingan', function () {
+                PlaySound('mySound');
+            })
+            $(document).on('click', 'body', function (e) {
+                console.log(e.target);
+                PlaySound('mySound2');
+            })
+        </script>
+         
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+<!--End Navbar-->
+
+
+<!--This Is Header-->
+
+<div class="header">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active one">
+              <div class="alpha">
+                  <div class="wow bounceInUp" data-wow-duration="3s" data-wow-iteration="1">
+                     
+                    <h2>قم بالبناء معنا بشكل ناجح</h2>
+                    <p>تأسست مجموعة نصار في عام 1971 كمصنع صغير في مجال تصنيع الأسلاك ، بدءًا من سحب الأسلاك السوداء الملدنة لصناعة البناء.</p>
+                    <button><a href="#"><span>معلومات اكثر</span><span><i class="fa fa-arrow-left"></i></span></a></button>
+                      
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item two">
+            <div class="alpha">
+                <div  class="wow bounceInUp" data-wow-duration="3s" data-wow-iteration="1"> 
+            
+                    <h2>بنيت للقوة</h2>
+                    <p>تأسست مجموعة نصار في عام 1971 كمصنع صغير في مجال تصنيع الأسلاك ، بدءًا من سحب الأسلاك السوداء الملدنة لصناعة البناء.</p>
+                    <button><a href="#"><span>منتجاتنا</span><span><i class="fa fa-arrow-left"></i></span></a></button>
+                      
+                  </div>
+            </div>
+          </div>
+
+          <div class="carousel-item three">
+            <div class="alpha">
+                <div  class="wow bounceInUp" data-wow-duration="3s" data-wow-iteration="1">
+                     
+                    <h2>قم بالبناء معنا بشكل ناجح</h2>
+                    <p>تأسست مجموعة نصار في عام 1971 كمصنع صغير في مجال تصنيع الأسلاك ، بدءًا من سحب الأسلاك السوداء الملدنة لصناعة البناء.</p>
+                    <button><a href="#"><span>معلومات اكثر</span><span><i class="fa fa-arrow-left"></i></span></a></button>
+                      
+                  </div>
+            </div>
+         </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+</div>
+<i aria-hidden="true" class="td-icon flaticon-industry-truck-2"></i>
+
+<!--End Header-->
+
+<!--This Is Section One-->
+<div class="section-one">
+<div class="container">
+<div class="row">
+  
+    <div class="card1 col-lg col-12 wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1" data-wow-offset="100">
+      <div>
+
+        <span><i class="fa fa-cogs"></i></span>
+        <span>دعم فني</span>
+
+
+      </div>
+    </div>
+
+    <div class="card2 col-lg col-12 wow bounceInUp" data-wow-duration="3s" data-wow-iteration="1" data-wow-offset="100">
+      <div>
+
+        <span><i class="fa fa-door-open"></i></span>
+        <span>تكنولوجيا فريده</span>
+
+      </div>
+    </div>
+
+    <div class="card3 col-lg col-12 wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1" data-wow-offset="100">
+      <div>
+
+        <span><i class="fa fa-users"></i></span>
+        <span>فريق عمل ممتاز </span>
+
+      </div>
+    </div>
+
+    <div class="card4 col-lg col-12 wow bounceInUp" data-wow-duration="3s" data-wow-iteration="1" data-wow-offset="100">
+      <div>
+
+        <span><i class="fa fa-building"></i></span>
+        <span>العمل بذكاء</span>
+
+      </div>
+    </div>
+
+    <div class="card5 col-lg col-12 wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1" data-wow-offset="100">
+      <div>
+
+        <span><i class="fa fa-truck-moving"></i></span>
+        <span>الجودة العالية</span>
+
+      </div>
+    </div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+<!--End Section One-->
+
+
+<!--Start Section Two-->
+<div class="section-two" id="information">
+<div class="container">
+<div class="row">
+
+  <div class="photo col-md-6">
+
+
+  </div>
+
+  <div class="paragraph col-md-6">
+
+    <h4>عن الشركة</h4>
+    <p>نحن لدينا 50+ سنوات من الخبرة في العمل مع العديد من المجالات العالميه</p>
+    <p>تأسست مجموعة نصار في عام 1971 كمصنع صغير في مجال تصنيع الأسلاك ، بدءًا من سحب الأسلاك السوداء الملدنة لصناعة البناء.</p>
+    <p>اليوم ، تُعرف مجموعة نصار على نطاق واسع بأنها رائدة في صناعة الأسلاك ، حيث شرعت في سلسلة من المبادرات التي تهدف إلى زيادة طاقتها الإنتاجية.</p>
+    <p>نحن نقدم أفضل المنتجات المؤهلة. أكثر من 55 عامًا من الخبرة في الصناعات العالمية.</p>
+    <p> <i class="fa fa-facebook"></i> <i class="fab fa-linkedin-in"></i> <i class="fab  fa-instagram"></i> <i class="fab  fa-youtube"></i></p>
+     
+  </div>
+
+</div>
+</div>
+</div>
+
+
+
+<!--End Section Two-->
+
+<!--This Section Three-->
+<div class="section-three">
+<div class="container">
+
+  <div class="row">
+    <div class="heading col-12">
+ 
+     <h4>المنتجات الرئيسية</h4>
+ 
+    </div>
+   </div>
+
+<div class="row">
+
+ 
+
+  <div class="photo1 col-lg-4 col-md-6 col-12">
+   <div class="photo11">
+     <div class="alpha">
+
+      <span class="wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1"><i class="fas fa-search"></i></span>
+
+     </div>
+   </div>
+  </div>
+   
+
+  <div class="photo2 col-lg-4 col-md-6 col-12">
+    <div class="photo22">
+     <div class="alpha">
+
+      <span class="wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1"><i class="fas fa-search"></i></span>
+
+     </div>
+    </div>
+   </div>
+
+   <div class="photo3 col-lg-4 col-md-6 col-12">
+    <div class="photo33">
+      <div class="alpha">
+
+        <span class="wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1"><i class="fas fa-search"></i></span>
+
+      </div>
+    </div>
+   </div>
+
+   <div class="photo4 col-lg-4 col-md-6 col-12">
+    <div class="photo44">
+      <div class="alpha">
+
+        <span class="wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1"><i class="fas fa-search"></i></span>
+
+      </div>
+    </div>
+   </div>
+
+   <div class="photo5 col-lg-4 col-md-6 col-12">
+    <div class="photo55">
+      <div class="alpha">
+
+        <span class="wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1"><i class="fas fa-search"></i></span>
+
+      </div>
+    </div>
+   </div>
+
+   <div class="photo6 col-lg-4 col-md-6 col-12">
+    <div class="photo66">
+      <div class="alpha">
+
+        <span class="wow bounceInDown" data-wow-duration="3s" data-wow-iteration="1"><i class="fas fa-search"></i></span>
+
+
+      </div>
+    </div>
+   </div>
+
+</div>
+
+<div class="row">
+  <div class="btn col-12">
+
+   <button id="all-products"><a href="#"> <span>جميع المنتجات</span> <span><i class="fa fa-arrow-left"></i></span> </a></button>
+
+  </div>
+ </div>
+
+</div>
+</div>
+
+
+
+<!--End Section Three-->
+
+
+
+<!--This Is Contact-->
+<div class="contact" id="contact">
+  <div class="container">
+  <div class="row">
+  
+      
+   <div class="contact-para col-lg-6 col-12">
+      
+      <h4>تواصل معنا</h4>
+      <p>تأسست مجموعة نصار في عام 1971 كمصنع صغير في مجال تصنيع الأسلاك ، بدءًا من سحب الأسلاك السوداء الملدنة لصناعة البناء.</p>
+      <p><i class="fa fa-envelope-open-text"></i><span>export@nassargroup.com </span></p>
+      <p><i class="fa fa-phone-square-alt"></i><span>19237</span></p>
+  
+      <p><i class="fa fa-map-marker-alt"></i><span>كفر سالم القناطر الخيرية ، كفر سليم ، القناطر الخيرية ، القليوبية القاهرة ، محافظة القاهرة ، مصر</span></p>
+  
+  </div>
+  
+  
+   <div class="contact-form col-lg-6 col-12">
+   
+      <form action="">
+       <input type="text" placeholder="الاسم">
+       <input type="email" placeholder="البريد الالكتروني">
+       <input type="tel" placeholder="رقم الهاتف">
+       <input type="text" placeholder="موضوع الرساله"><br>
+       <textarea name="" id="" cols="30" rows="5" placeholder="الرساله"></textarea><br>
+       <input type="submit" value="ارسال رساله">
+  
+  
+      </form>
+  
+   </div>
+  
+  
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  <!--End Contact-->
+  
+
+
+<!--This Is Section four-->
+
+<div class="section-four">
+<div class="container">
+<div class="row">
+
+  <div class="one col-lg-4 col-12">
+
+   <a href="#"><svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0V12L7.00543 6.48334L0 0Z" fill="#FFC631"></path><path d="M0 31L7.00543 24.5151L0 19V31Z" fill="#FFC631"></path><path d="M12.8208 14.3662L30.0233 0H19.9966L0 16L12.8208 14.3662Z" fill="#0DA574"></path><path d="M0 16L19.9966 31H30.0233L12.8208 17.5239L0 16Z" fill="#0DA574"></path></svg> Axial <span>Construct</span></a>
+   <p>تُعرف مجموعة نصار على نطاق واسع بأنها رائدة في صناعة الأسلاك و المسامير الصلب فى الشرق الاوسط  </p>
+   <p>تأسست مجموعة نصار في عام 1971 كمصنع صغير في مجال تصنيع الأسلاك ، بدءًا من سحب الأسلاك السوداء الملدنة لصناعة البناء. </p>
+  </div>
+
+  <div class="two col-lg-2 col-12">
+  
+    <h4>اختصارات</h4>
+    <p><a href="#"> <span><i class="fa fa-arrow-left"></i></span> <span>عن الشركة</span> </a></p>
+    <p><a href="#"> <span><i class="fa fa-arrow-left"></i></span> <span>المنتجات</span> </a></p>
+    <p><a href="#"> <span><i class="fa fa-arrow-left"></i></span> <span>تواصل معنا</span> </a></p>
+  </div>
+
+  <div class="three col-lg-6 col-12">
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110463.6812923228!2d31.352238770129652!3d30.09447157578933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145817082ea84f41%3A0xe065af2151e21386!2z2YXYt9in2LEg2KfZhNmC2KfZh9ix2Kkg2KfZhNiv2YjZhNmK!5e0!3m2!1sar!2seg!4v1638273303106!5m2!1sar!2seg" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+  </div>
+
+
+
+
+</div>
+</div>
+</div>
+
+
+<!--End Section Four-->
+
+
+
+
+<!--This Is Footer-->
+<div class="footer">
+<div class="container">
+<div class="row">
+
+<div class="para col-lg-6 col-12">
+
+  <p>© 2021 Resido. Designd By Alaa Ragab All Rights Reserved</p>
+
+</div>
+
+<div class="icon col-lg-6 col-12">
+
+  <p> <i class="fa fa-facebook"></i> <i class="fab fa-linkedin-in"></i> <i class="fab  fa-instagram"></i> <i class="fab  fa-youtube"></i></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+<!--End Footer-->
+
+ <script src="js/popper.min.js"></script>   
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/jquery2.js"></script>
+ <script src="js/jquery.js"></script>
+ <script src="js/first.js"></script>
+ <script src="js/index.js"></script>
+<script src="js/wow.js"></script>
+<script>
+new WOW().init();
+</script>
+
+</body>
+</html>

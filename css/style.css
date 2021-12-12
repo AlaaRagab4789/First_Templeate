@@ -1,0 +1,1133 @@
+
+:root {
+    --sharingan-size: 430px;
+    --black: #000;
+    --red: hsl(0, 100%, 36%);
+    --normal-color: hsl(0, 0%, 25%);
+    --border-width: calc(var(--sharingan-size) / 50);
+    --iris-size: calc(var(--sharingan-size) / 2);
+    --tomoe-size: calc(var(--sharingan-size) / 10.5);
+    --pupil-size: calc(var(--sharingan-size) / 5);
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .offcanvas-body{
+
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  
+  /* Centered */
+  
+  
+  .sharingan {
+    width: var(--sharingan-size);
+    height: var(--sharingan-size);
+    border: var(--border-width) solid var(--black);
+    border-radius: 50%;
+    background: var(--red);
+    box-shadow: 0 0 50px 10px var(--black) inset;
+    position: relative;
+  }
+  
+  .pupil {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: var(--pupil-size);
+    height: var(--pupil-size);
+    background: var(--black);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 60px 10px #fc3636;
+    transition: all 1s ease-in-out;
+  
+  }
+  
+  .iris {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: var(--iris-size);
+    height: var(--iris-size);
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    opacity: .5;
+  }
+  
+  .tomoes {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .tomoe-area {
+    position: absolute;
+    width: var(--iris-size);
+    height: var(--iris-size);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  
+  .tomoes a{
+  
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  left: 75px;
+  font-size: 14.5px;
+  position: absolute;
+  }
+  
+  .tomoes a:first-of-type{
+  
+  transform: rotate(20deg);
+  }
+  
+  
+  .tomoe {
+    /*   opacity: 0; */
+    width: var(--tomoe-size);
+    height: var(--tomoe-size);
+    position: absolute;
+    background-color: var(--black);
+    border-radius: 50%;
+    left: 50%;
+    top: -16.6%;
+    transform: translate(-50%);
+    transition: all 1s ease-in-out;
+    transition-delay: 400ms;
+  
+  }
+  
+  /* tomoe aspa */
+  .tomoe::before {
+    content: '';
+    position: absolute;
+    top: -30.3%;
+    left: 3.1%;
+    width: calc(var(--tomoe-size) * 1.51);
+    height: calc(var(--tomoe-size) * 1.69);
+    border-radius: 50%;
+    border-top: calc(var(--tomoe-size) / 2.6) solid var(--black);
+    border-left: calc(var(--tomoe-size) / 9.7) solid transparent;
+    transform: rotate(-35deg);
+    transition: all .3s ease;
+    transition-delay: 300ms;
+  
+    transition-property: top,
+        left,
+        width;
+  
+  }
+  
+  
+  .tomoe-area:first-child {
+    transform: translate(-50%, -50%);
+  }
+  
+  .tomoe-area:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(120deg);
+  }
+  
+  .tomoe-area:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(-120deg);
+  }
+  
+  .tomoe-area:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  
+  .tomoe-area:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(300deg);
+  }
+  
+  .tomoe-area:nth-child(6) {
+    transform: translate(-50%, -50%) rotate(60deg);
+  }
+  
+  
+  
+  
+  
+  /***************************************
+  ANIMATION
+  ***************************************/
+  
+  
+  .sharingan:hover .pupil {
+    background-color: #c30c0c;
+    z-index: 999;
+    border: 1px solid;
+  }
+  
+  .sharingan:hover .tomoes .tomoe {
+    width: 25px;
+    height: 50px;
+    top: -65px;
+    border-bottom: solid 140px rgb(0 0 0);
+    border-left: solid 45px transparent;
+    border-right: solid 10px transparent;
+    border-radius: 110px 110px 0px 0px;
+  
+  
+  }
+  
+  
+  
+  
+
+
+
+body{
+
+padding: 0px;
+margin: 0px;
+font-family: 'Cairo', sans-serif;
+box-sizing: border-box;
+direction: rtl;
+}
+
+
+/**This Is Navbar**/
+ .offcanvas-end{
+    
+    direction: rtl;
+    width: 100%;
+    
+    }
+.navbar{
+
+padding-top: 0.8rem;
+padding-bottom: 0.8rem;
+direction: ltr;
+
+
+}
+
+.offcanvas-body{
+
+font-family: 'Tajawal', sans-serif;
+font-weight: 500;
+
+}
+
+
+
+.dropdown .dropdown-menu{
+
+display: none;
+}
+
+.navbar-brand{
+
+font-weight: 600;
+font-family: 'Tajawal', sans-serif;
+font-size: 25px;
+
+}
+
+.one1{
+
+    background-color: #5d6369!important;
+}
+
+.navbar-brand span{
+
+color: #0da574;
+}
+
+.navbar-light .navbar-toggler{
+
+border: none;
+outline: none;
+}
+
+.navbar-toggler{
+
+    font-size: 1.3rem;
+    
+}
+
+.navbar-toggler i{
+
+color: #555;
+}
+
+.navbar-toggler:focus{
+text-decoration: none;
+outline: 0;
+box-shadow: 0 0 0 0rem;
+}
+
+.offcanvas-end ul li a{
+
+font-size: 16px;
+}
+
+.nav-item .nav-link span{
+
+padding-right: 7px;
+}
+
+.nav-link {
+
+    padding: 0.8rem 1rem;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+
+}
+
+.offcanvas-title{
+
+font-size: 20px;
+font-family: 'Tajawal', sans-serif;
+font-weight: 600;
+}
+
+.offcanvas-title span{
+
+    color: #0da574;
+
+}
+
+@media(max-width:768px){
+
+.offcanvas-end{
+    
+    direction: rtl;
+    width: 100%;
+    
+ }    
+
+}
+
+/**End Navbar**/
+
+
+/**This Is Header**/
+
+.header
+{
+direction: rtl;
+font-family: 'Tajawal', sans-serif;
+
+}
+
+.header .one{
+
+background-image: url(../image/1.jpg);
+height: 591px;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+
+
+}
+
+
+.header .two{
+
+background-image: url(../image/pexels-ono-kosuki-5974281.jpg);
+height: 591px;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+
+
+
+.header .three{
+
+background-image: url(../image/3.jpg);
+height: 591px;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+
+.header .one .alpha,.header .two .alpha,.header .three .alpha{
+
+background-color: rgba(0,0,0,0.33);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+
+.carousel-indicators [data-bs-target]{
+
+border-radius: 50%;
+width: 10px;
+height: 10px;
+}
+
+.header .one .alpha div,.header .two .alpha div,.header .three .alpha div{
+
+width: 70%;
+
+}
+
+.header h2{
+
+color: #fff;
+font-size: 48px;
+}
+
+.header p{
+
+color: #eee;
+font-size: 15.5px;
+padding: 10px 0px;
+width: 50%;
+margin: auto;
+line-height: 1.8em;
+}
+
+.header a{
+
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+}
+
+.header .alpha button{
+
+padding: 9px 28px;
+border: none;
+background-color: #8cb600ef;
+border-radius: 4px;
+transition: 0.5s;
+
+}
+
+.header .alpha button:hover{
+
+background-color: #d19b7c!important;
+
+}
+
+.header .alpha button span i{
+
+padding-right: 10px;
+font-size: 12px;
+}
+
+
+
+@media(max-width: 768px){
+
+
+.header h2{
+
+font-size: 25px;
+}
+
+.header p{
+
+font-size: 12px;
+line-height: 1.8em;
+width: 90%;
+}
+
+.header a{
+
+font-size: 13px;
+}
+
+.header .alpha button span i{
+
+font-size: 10.5px;
+}
+
+.header .one{
+
+background-image: url(../image/1.jpg);
+height: 591px;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+
+
+}
+
+
+.header .two{
+
+background-image: url(../image/pexels-ono-kosuki-5974281.jpg);
+height: 591px;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+
+
+
+.header .three{
+
+background-image: url(../image/3.jpg);
+height: 591px;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+
+
+
+}
+
+/**End Header**/
+
+/**This Is Section-one**/
+.section-one{
+
+padding: 40px 0px 0px 0px;
+margin: 30px 0px 0px 0px;
+font-family: 'Tajawal', sans-serif;
+
+}
+
+.section-one span{
+
+display: block;
+}
+
+.section-one .card1,.section-one .card2,.section-one .card3,.section-one .card4,.section-one .card5{
+
+display: flex;
+align-items: center;
+}
+
+.section-one .card1 div,.section-one .card2 div,.section-one .card3 div,.section-one .card4 div,.section-one .card5 div{
+
+box-shadow: 0px 0px 2px #ccc,0px 0px 2px #ccc;
+width: 100%;
+text-align: center;
+padding: 30px 0px;
+transition: 0.5s;
+}
+
+.section-one .card1 div span,.section-one .card2 div span,.section-one .card3 div span,.section-one .card4 div span,.section-one .card5 div span{
+
+padding: 5px 0px;
+font-weight: 500;
+color: #282828;
+}
+
+.section-one .card1 div span i,.section-one .card2 div span i,.section-one .card3 div span i,.section-one .card4 div span i,.section-one .card5 div span i{
+
+font-size: 40px;
+color: #b4ce5eef;
+
+}
+
+.section-one .card1 div:hover,.section-one .card2 div:hover,.section-one .card3 div:hover,.section-one .card4 div:hover,.section-one .card5 div:hover{
+
+    background-color: #d19b7c!important;
+    padding: 35px 0px;
+
+
+
+}
+
+.section-one .card1 div:hover i,.section-one .card2 div:hover i,.section-one .card3 div:hover i,.section-one .card4 div:hover i,.section-one .card5 div:hover i{
+
+ color: #fff;
+
+}
+
+
+.section-one .card1 div:hover span,.section-one .card2 div:hover span,.section-one .card3 div:hover span,.section-one .card4 div:hover span,.section-one .card5 div:hover span{
+
+ color: #fff;
+
+}
+
+
+
+@media(max-width:768px){
+
+.section-one .card1 div,.section-one .card2 div,.section-one .card3 div,.section-one .card4 div,.section-one .card5 div{
+
+margin: 10px;
+}
+
+
+}
+
+
+/**End Section-one**/
+
+/**Start Section-two**/
+
+.section-two{
+
+padding: 80px 0px 40px 0px;
+font-family: 'Tajawal', sans-serif;
+
+}
+
+.section-two .photo{
+
+background-image: url(../image/2.jpg);
+height: 380px;
+background-repeat: no-repeat;
+background-size: 98% 100%;
+
+}
+
+.section-two .paragraph{
+
+width: 45%;
+margin-right: 2%;
+}
+
+.section-two .paragraph h4{
+
+color: #282828bd;
+margin-bottom: 35px;
+font-weight: 500;
+}
+
+.section-two .paragraph p{
+
+line-height: 1.8em;
+color: #777;
+font-size: 15.5px;
+}
+
+.section-two .paragraph button a {
+
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+}
+
+.section-two .paragraph button{
+
+padding: 9px 28px;
+border: none;
+background-color: #8cb600ef;
+border-radius: 4px;
+transition: 0.5s;
+margin: 20px 0px;
+
+}
+
+.section-two .paragraph p i{
+
+margin: 15px 0px;
+}
+
+.section-two .paragraph  p i{
+
+width: 40px;
+height: 35px;
+color: #999;
+border: 0.5px solid #bbb;
+border-radius: 5px;
+font-size: 14.5px;
+margin-right: 5px;
+text-align: center;
+box-sizing: border-box;
+padding: 10px 0px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.section-two .paragraph p i:hover{
+
+color: #fff;
+border: none;
+background-color: #d19b7c!important;
+
+}
+
+.section-two .paragraph button:hover{
+
+background-color: #d19b7c!important;
+
+}
+
+.section-two .paragraph button span{
+
+padding-right: 4px;
+}
+
+.section-two .paragraph button span i{
+
+font-size: 12px;
+}
+
+@media(max-width:768px){
+
+    
+.section-two .photo{
+    
+background-image: url(../image/2.jpg);
+height: 380px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+    
+
+.section-two .paragraph{
+
+width: 100%;
+margin: 20px 0px;
+}
+
+.section-two{
+
+padding: 10px 0px 10px 0px;
+font-family: 'Tajawal', sans-serif;
+
+}
+
+}
+
+
+/**End Section-two**/
+
+
+
+/**This Is Section Three**/
+.section-three{
+
+padding: 30px 0px 0px 0px;
+margin: 10px 0px;   
+font-family: 'Tajawal', sans-serif;
+
+}
+
+.section-three .heading h4{
+
+text-align: center;
+padding: 20px 0px;
+color: #282828bd;
+font-weight: 500;
+
+}
+
+.section-three .photo1 .photo11{
+background-image: url(../image/pexels-polina-tankilevitch-5583069.jpg);
+background-size: 100% 100%;
+width: 100%;
+height: 270px;
+}
+
+
+.section-three .photo2 .photo22{
+background-image: url(../image/pexels-ono-kosuki-5973969.jpg);
+background-size: 100% 100%;
+width: 100%;
+height: 270px;
+}
+
+
+.section-three .photo3 .photo33{
+background-image: url(../image/pexels-brett-sayles-1550131.jpg);
+background-size: 100% 100%;
+width: 100%;
+height: 270px;
+}
+
+.section-three .photo4 .photo44{
+background-image: url(../image/pexels-max-vakhtbovych-7018251.jpg);
+background-size: 100% 100%;
+width: 100%;
+height: 270px;
+}
+
+.section-three .photo5 .photo55{
+background-image: url(../image/pexels-soloman-soh-1492232.jpg);
+background-size: 100% 100%;
+width: 100%;
+height: 270px;
+}
+
+.section-three .photo6 .photo66{
+background-image: url(../image/pexels-alex-tepetidis-5279317.jpg);
+background-size: 100% 100%;
+width: 100%;
+height: 270px;
+}
+
+.section-three .photo1,.section-three .photo2,.section-three .photo3,.section-three .photo4,.section-three .photo5,.section-three .photo6
+{
+
+margin: 1% 0px;
+}
+
+
+.section-three .photo1 .alpha,.section-three .photo2 .alpha,.section-three .photo3 .alpha,.section-three .photo4 .alpha,.section-three .photo5 .alpha,.section-three .photo6 .alpha
+{
+
+background-color:rgba(114, 73, 48, 0.7);
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: 0.5s;
+}
+
+.section-three .alpha i{
+
+color: #fe590f;
+font-size: 22px;
+font-weight: 900;
+}
+
+.section-three .alpha span{
+
+padding: 13px 15px 11px 15px;
+background-color: #fff;
+border-radius: 50%;
+cursor: pointer;
+}
+
+
+.section-three .photo1 .alpha:hover,.section-three .photo2 .alpha:hover,.section-three .photo3 .alpha:hover,.section-three .photo4 .alpha:hover,.section-three .photo5 .alpha:hover,.section-three .photo6 .alpha:hover
+{
+
+opacity: 1;
+}
+
+
+.section-three .btn button a {
+
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+}
+
+.section-three .btn button{
+
+padding: 9px 28px;
+border: none;
+background-color: #8cb600ef;
+border-radius: 4px;
+transition: 0.5s;
+margin: 20px 0px;
+
+}
+
+.section-three .btn button:hover{
+
+background-color: #d19b7c!important;
+
+}
+
+.section-three .btn button span{
+
+padding-right: 4px;
+}
+
+.section-three .btn button span i{
+
+font-size: 11.5px;
+}
+
+
+@media(max-width:768px){
+
+.section-three{
+
+padding: 10px 0px 0px 0px;
+margin: 10px 0px;   
+font-family: 'Tajawal', sans-serif;
+
+}
+
+}
+/**End Setion Three**/
+
+/**This Is Contact**/
+
+
+.contact{
+
+padding: 80px 0px 20px 0px;
+font-family: 'Tajawal', sans-serif;
+margin-top: 0px!important;
+
+}
+
+
+
+.contact form input{
+
+border: none;
+padding: 12px 8px;
+border: 1px solid #ccc;
+margin: 12px 0px;
+width: 48%;
+margin-right: 1.5%;
+outline: none;
+border-radius: 3px;
+
+}
+textarea{
+
+width: 98.5%;
+margin-right: 1.5%;
+outline: none;
+border: 1px solid #ccc;
+margin-top: 12px;
+padding: 11px 8px;
+border-radius: 3px;
+resize: none;
+
+
+}
+
+.contact form input::placeholder{
+
+font-size: 15px;
+color: #aaa;
+}
+
+.contact form textarea::placeholder{
+
+font-size: 15px;
+color: #aaa;
+}
+
+.contact form input[type="submit"]{
+width: 30%;
+padding: 12px 6px;
+font-size: 15px;
+background-color: #8cb600ef;
+border: none;
+color: #fff;
+transition: 0.5s;
+}
+
+.contact form input[type="submit"]:hover{
+
+background-color: #d19b7c!important;
+}
+
+.contact .contact-para h4{
+
+color: #282828bd;
+padding-bottom: 20px;
+}
+
+
+.contact .contact-para p{
+
+width: 80%;
+padding: 5px 0px;
+line-height: 1.8em;
+font-size: 15.5px;
+color: #777;
+}
+
+
+.contact .contact-para p i{
+
+padding-left: 9px;
+font-size: 20px;
+color: #b4ce5eef;
+
+}
+
+@media(max-width:768px){
+
+.contact form input,textarea{
+
+width: 100%;
+
+}
+
+.contact .contact-para p{
+
+width: 100%;
+}
+
+}
+
+
+/**End Contact**/
+
+
+
+/**This Is Section Four**/
+
+.section-four{
+
+padding: 80px 0px 60px 0px;
+font-family: 'Tajawal', sans-serif;
+background-color: #404c4e;
+;
+}
+
+.section-four .one p{
+
+padding: 10px 0px;
+line-height: 1.8em;
+color: #ddd;
+font-size: 15px;
+font-weight: 300;
+}
+
+.section-four .one p:nth-last-of-type(2){
+
+padding: 0px;
+}
+
+.section-four .one a{
+
+text-decoration: none;
+color: #eee;
+padding: 10px 0px 30px 0px;
+display: block;
+font-size: 25px;
+font-weight: 600;
+}
+
+.section-four .one a span{
+
+color: #0da574;
+
+}
+
+
+.section-four .two h4{
+
+padding: 15px 0px 25px 0px;
+font-size: 22px;
+font-weight: 500;
+color: #eee;
+
+}
+
+.section-four .two p a{
+
+text-decoration: none;
+}
+
+.section-four .two p span{
+
+color: #ddd;
+font-size: 15px;
+padding-right: 8px;
+
+}
+
+.section-four .two p span i{
+
+font-size: 11px;
+}
+
+
+.section-four .three{
+
+    padding: 12px 0px 20px 0px;
+}
+
+
+
+/**End Section Four**/
+
+/**This Is Footer**/
+
+.footer{
+
+padding-top: 0.9rem;
+padding-bottom: 0.9rem;
+font-family: 'Tajawal', sans-serif;
+background-color: #384146!important;
+direction: ltr;
+font-weight: 300;
+
+}
+
+.footer .para p,.footer .icon p{
+
+padding: 0px;
+margin: 0px;
+}
+
+.footer .para p{
+
+color: #ddd;
+font-size: 16px;
+padding: 20px 0px 0px 0px;
+
+}
+
+.footer .icon{
+
+text-align: right;
+padding: 10px 0px 10px 0px ;
+
+}
+
+.footer .icon p i{
+
+width: 40px;
+height: 35px;
+color: #ccc;
+border: 0.5px solid #888;
+border-radius: 5px;
+font-size: 14.5px;
+margin-right: 5px;
+text-align: center;
+box-sizing: border-box;
+padding: 10px 0px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.footer .icon p i:hover{
+
+color: #fff;
+border: none;
+background-color: #d19b7c!important;
+
+}
+
+@media(max-width:768px){
+
+.footer .icon{
+
+text-align: center;
+padding: 10px 10px 10px 10px ;
+margin: 7px 0px;
+
+}
+
+}
+
+/**End Footer**/
+
+::-webkit-scrollbar{
+
+width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+
+background-color: #ccc;
+border-radius: 8px;
+}
